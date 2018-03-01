@@ -1,0 +1,111 @@
+{
+    "name": "Solarized",
+    "style": "Light",
+    "author": [
+        {
+            "name": "Ethan Schoonover"
+        },
+        {
+            "name": "Rudd Fawcett",
+            "email": "rudd.fawcett@gmail.com"
+        },
+        {
+            "name": "Christian Tietze"
+        }
+    ],
+    "version": "1.0",
+
+    "editor": {
+        "backgroundColor": "#FDF6E4",
+        "caretColor": "#6ec3dc",
+        "highlight": {
+            "backgroundColor": "#eee8d5",
+            "unfocusedBackgroundColor": "#dbdcce"
+        },
+        "selection": {
+            "color": "#fdf6e3",
+            "backgroundColor": "#d33682",
+            "unfocusedBackgroundColor": "#e35db5"
+        }
+    },
+
+    "styles": {
+        "base": {
+            "color": "#657b83"
+        },
+
+        "h1": {
+            "font": { "style": "bold" },
+            "color": "#b58900"
+        },
+        "h2": {
+            "font": { "style": "bold" },
+            "color": "#b58900"
+        },
+        "h3": {
+            "font": { "style": "bold" },
+            "color": "#b58900"
+        },
+        "h4": {
+            "font": { "style": "bold" },
+            "color": "#b58900"
+        },
+        "h5": {
+            "font": { "style": "bold" },
+            "color": "#b58900"
+        },
+        "h6": {
+            "font": { "style": "bold" },
+            "color": "#b58900"
+        },
+
+        "horizontalRule": {
+            "color": "#b58900"
+        },
+
+        "codeBlock": {
+            "color": "#b58900",
+        },
+        "inlineCode": {
+            "color": "#b58900",
+        },
+
+        "blockquote": {
+            "font": { "style": "italic" },
+            "indent": { "characters": 2 },
+            "color": "#657b83"
+        },
+        "list": {
+            "syntax": { "color" : "#93a1a1" }
+        },
+
+        "emphasis": {
+            "color": "#586e75",
+            "font": { "style": "italic" },
+            "syntax": { "color": "#AAAAAA" }
+        },
+        "strong": {
+            "color": "#586e75",
+            "font": { "style": "bold" },
+            "syntax": { "color": "#AAAAAA" }
+        },
+
+        "image": {
+            "color": "#cb4b16"
+        },
+        "footnote": {
+            "color": "#cb4b16"
+        },
+        "link": {
+            "color": "#268bd2"
+        },
+        "referenceDefinition": {
+            "color": "#6c71c4"
+        },
+
+        "comment": {
+            "color": "#93a1a1",
+            "font": { "style": "regular" }
+        }
+    }
+}

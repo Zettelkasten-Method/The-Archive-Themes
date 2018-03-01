@@ -1,0 +1,99 @@
+{
+    "name": "Tomorrow",
+    "style": "Dark",
+    "author": [
+        {
+            "name": "Chen Luo",
+            "url": "http://25.io/mou/"
+        },
+        {
+            "name": "Christian Tietze"
+        }
+    ],
+    "version": "1.0",
+
+    "editor": {
+        "backgroundColor": "#2d2d2d",
+        "caretColor": "#cc99cc",
+        "selection": {
+            "color": "#ffffff",
+            "background": "#515151"
+        }
+    },
+
+    "styles": {
+        "base": {
+            "color": "#cccccc"
+        },
+
+        "h1": {
+            "font": { "style": "bold" },
+            "color": "#66cccc"
+        },
+        "h2": {
+            "font": { "style": "bold" },
+            "color": "#66cccc"
+        },
+        "h3": {
+            "font": { "style": "bold" },
+            "color": "#66cccc"
+        },
+        "h4": {
+            "font": { "style": "bold" },
+            "color": "#66cccc"
+        },
+        "h5": {
+            "font": { "style": "bold" },
+            "color": "#66cccc"
+        },
+        "h6": {
+            "font": { "style": "bold" },
+            "color": "#66cccc"
+        },
+        
+        "horizontalRule": {
+            "color": "#999999"
+        },
+
+        "codeBlock": {
+            "color": "#999999"
+        },
+        "inlineCode": {
+            "color": "#999999"
+        },
+
+        "blockquote": {
+            "color": "#f2777a"
+        },
+        "list": {
+            "syntax": { "color" : "#6699cc" }
+        },
+
+        "emphasis": {
+            "font": { "style": "italic" },
+            "color": "#ffcc66"
+        },
+        "strong": {
+            "font": { "style": "bold" },
+            "color": "#f99157"
+        },
+
+        "image": {
+            "color": "#cc99cc"
+        },
+        "footnote": {
+            "color": "#cc99cc"
+        },
+        "link": {
+            "color": "#99cc99"
+        },
+        "referenceDefinition": {
+            "color": "#66cccc"
+        },
+
+        "comment": {
+            "color": "#888888",
+            "font": { "style": "regular" }
+        }
+    }
+}

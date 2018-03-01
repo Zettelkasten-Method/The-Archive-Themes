@@ -1,0 +1,87 @@
+{
+    "name": "Writer",
+    "style": "Light",
+    "author": [
+        {
+            "name": "Chen Luo",
+            "url": "http://25.io/mou/"
+        },
+        {
+            "name": "Christian Tietze"
+        }
+    ],
+    "version": "1.0",
+
+    "editor": {
+        "backgroundColor": "#fafafa",
+        "caretColor": "#00b9ff"
+    },
+
+    "styles": {
+        "base": {
+            "color": "#424242"
+        },
+
+        "h1": {
+            "font": { "style": "bold" }
+        },
+        "h2": {
+            "font": { "style": "bold" }
+        },
+        "h3": {
+            "font": { "style": "bold" }
+        },
+        "h4": {
+            "font": { "style": "bold" }
+        },
+        "h5": {
+            "font": { "style": "bold" }
+        },
+        "h6": {
+            "font": { "style": "bold" }
+        },
+        
+        "horizontalRule": {
+            "color": "#00b9ff"
+        },
+
+        "codeBlock": {
+            "color": "#555555"
+        },
+        "inlineCode": {
+            "color": "#555555"
+        },
+
+        "blockquote": {
+            "color": "#bbbbbb"
+        },
+        "list": {
+            "syntax": { "color" : "#bbbbbb" }
+        },
+
+        "emphasis": {
+            "font": { "style": "italic" }
+        },
+        "strong": {
+            "font": { "style": "bold" }
+        },
+
+        "image": {
+            "color": "#555555"
+        },
+        "footnote": {
+            "color": "#555555"
+        },
+        "link": {
+            "color": "#555555"
+        },
+        "referenceDefinition": {
+            "color": "#555555"
+        },
+
+        "comment": {
+            "color": "#bbbbbb",
+            "font": { "style": "regular" }
+        }
+    }
+}
