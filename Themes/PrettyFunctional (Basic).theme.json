@@ -1,0 +1,93 @@
+{
+    "name": "PrettyFunctional (Basic)",
+    "style": "Light",
+    "author": [
+        {
+            "name": "NSSynapse",
+            "comment": "This basic version of the PrettyFunctional theme only contains the color settings. The marquee feature of the regular version, to mix a fixed-width font for code elements with a pretty variable-width font such as Helvetica Neue or SF Pro Text for everything else, is missing from this version."
+        }
+    ],
+    "version": "1.1",
+
+    "editor": {
+        "backgroundColor": "#fafafa",
+        "caretColor": "#0080ff"
+    },
+
+    "styles": {
+        "base": {
+            "color": "#323232"
+        },
+
+        "h1": {
+            "font": { "style": "bold" },
+            "color": "#a11212"
+        },
+        "h2": {
+            "font": {  "style": "bold" },
+            "color": "#ad1f1f"
+        },
+        "h3": {
+            "font": {  "style": "bold" },
+            "color": "#a32929"
+        },
+        "h4": {
+            "font": {  "style": "bold" },
+            "color": "#993333"
+        },
+        "h5": {
+            "font": {  "style": "bold" },
+            "color": "#993333"
+        },
+        "h6": {
+            "font": {  "style": "bold" },
+            "color": "#993333"
+        },
+        
+        "horizontalRule": {
+            "color": "#737373"
+        },
+
+        "codeBlock": {
+        	"color": "#425257",
+        	"backgroundColor": "#f5f5f5"
+    	},
+        "inlineCode": {
+        	"color": "#425257",
+        	"backgroundColor": "#f5f5f5"
+    	},
+        "blockquote": {
+        	"color": "#6f582a",
+        	"backgroundColor": "#f5f5f5"
+        },
+        "list": {
+            "syntax": { "color" : "#323232" }
+        },
+
+        "emphasis": {
+            "font": {  "style": "italic" }
+        },
+        "strong": {
+            "font": {  "style": "bold" }
+        },
+
+        "image": {
+            "color": "#555555"
+        },
+        "link": {
+            "color": "#244bc2"
+        },
+        "referenceDefinition": {
+            "color": "#555555"
+        },
+
+        "comment": {
+            "color": "#b8b8b8",
+            "font": {  "style": "regular" }
+        },
+        
+        "footnote": {
+            "color": "#069393"
+        }
+    }
+}
