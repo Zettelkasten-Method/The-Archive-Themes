@@ -11,7 +11,11 @@
 
     "editor": {
         "backgroundColor": "#fafafa",
-        "caretColor": "#0080ff"
+        "caretColor": "#0080ff",
+        "highlight": {
+            "backgroundColor": "#b4d6fd",
+            "unfocusedBackgroundColor": "#d7e7f4"
+        },
     },
 
     "styles": {
