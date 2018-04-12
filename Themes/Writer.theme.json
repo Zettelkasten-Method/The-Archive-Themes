@@ -10,11 +10,19 @@
             "name": "Christian Tietze"
         }
     ],
-    "version": "1.0",
+    "version": "1.1",
 
     "editor": {
         "backgroundColor": "#fafafa",
-        "caretColor": "#00b9ff"
+        "caretColor": "#00b9ff",
+        "selection": {
+            "backgroundColor": "#b2d7ff",
+            "unfocusedBackgroundColor": "#d2d9e1"
+        },
+        "highlight": {
+            "backgroundColor": "#dddddd",
+            "unfocusedBackgroundColor": "#ececec"
+        }
     },
 
     "styles": {
