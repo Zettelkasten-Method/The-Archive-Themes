@@ -7,11 +7,15 @@
             "comment": "This basic version of the PrettyFunctional theme only contains the color settings. The marquee feature of the regular version, to mix a fixed-width font for code elements with a pretty variable-width font such as Helvetica Neue or SF Pro Text for everything else, is missing from this version."
         }
     ],
-    "version": "1.1",
+    "version": "1.2",
 
     "editor": {
         "backgroundColor": "#fafafa",
-        "caretColor": "#0080ff"
+        "caretColor": "#0080ff",
+        "highlight": {
+            "backgroundColor": "#b4d6fd",
+            "unfocusedBackgroundColor": "#d7e7f4"
+        },
     },
 
     "styles": {
