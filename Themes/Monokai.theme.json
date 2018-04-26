@@ -1,0 +1,119 @@
+{
+    "name": "Monokai",
+    "style": "Dark",
+    "author": [
+        { 
+            "role": "Original theme creator",
+            "name": "Wimer Hazenberg",
+            "url": "https://www.monokai.nl/",
+            "theme": "http://www.monokai.nl/blog/wp-content/asdev/Monokai.tmTheme"
+        },
+        { 
+            "role": "JSON Port and Adaptation",
+            "name": "Rene",
+            "url": "https://github.com/renerocksai/"
+        },
+        {
+            "name": "Christian Tietze"
+        }
+    ],
+    "version": "1.0",
+    
+    "editor": {
+        "caretColor": "#f8f8f0",
+        "backgroundColor": "#272822",
+        "selection" : {
+            "backgroundColor": "#49483E",
+            "unfocusedBackgroundColor": "#3E3E33"
+        },
+        "highlight": {
+            "color": "#F8F8F0",
+            "backgroundColor": "#888888",
+            "unfocusedBackgroundColor": "#444444"
+        },
+        "invisibles": {
+            "color": "#3B3A32"
+        }
+    },
+    
+    "styles": {
+        "base": {
+            "color": "#f8f8f2",
+        },
+
+        "h1": {
+            "color": "#fd971f",
+            "font": { "style": "bold" }
+        },
+        "h2": {
+            "color": "#fd971f",
+            "font": { "style": "bold" }
+        },
+        "h3": {
+            "color": "#fd971f",
+            "font": { "style": "bold" }
+        },
+        "h4": {
+            "color": "#fd971f",
+            "font": { "style": "bold" }
+        },
+        "h5": {
+            "color": "#fd971f",
+            "font": { "style": "bold" }
+        },
+        "h6": {
+            "color": "#fd971f",
+            "font": { "style": "bold" }
+        },
+
+        "horizontalRule": {},
+
+        "codeBlock": {
+            "color": "#ae81ff",
+            "backgroundColor": "#222222"
+        },
+        "inlineCode": {
+            "color": "#ec3533"
+        },
+
+        "blockquote": {
+            "color": "#66d9ef",
+            "syntax": { "color": "#66d9ef" },
+            "font": { "style": "italic" }
+        },
+        "list": {
+            "syntax": { "color" : "#777777" }
+        },
+
+        "emphasis": {
+            "color": "#f92672",
+            "syntax": { "color":  "#AAAAAA" },
+            "font": { "style": "italic" }
+        },
+        "strong": {
+            "color": "#f92672",
+            "syntax": { "color":  "#AAAAAA" },
+            "font": { "style": "bold" }
+        },
+
+        "image": {
+            "color": "#66D9EF",
+            "syntax": { "color": "#777777" }
+        },
+        "footnote": {
+            "color": "#AE81FF"
+        },
+        "link": {
+            "color": "#AE81FF",
+            "syntax": { "color": "#777777" }
+        },
+        "referenceDefinition": {
+            "color": "#66D9EF"
+        },
+
+        "comment": {
+            "color": "#75715E",
+            "font": { "style": "regular" }
+        }
+    }
+}
