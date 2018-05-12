@@ -27,8 +27,8 @@ List of all root-level attributes:
 - `style`: String, either "Light" or "Dark"; used to filter themes for dark mode
 - `author`: Array of author detail objects
 - `version`: String
-- `editor`: a settings Object, see below for details
-- `styles`: a settings Object, see below for details
+- `editor`: a settings Object for the editor and user interface chrome; see details below
+- `styles`: a settings Object for text and Markdown highlighting; see details below
 
 When I say "object" or "settings object", I mean a `{...}` delimited collection of sub-attributes.
 
