@@ -17,6 +17,13 @@
             "unfocusedBackgroundColor": "#d7e7f4"
         },
     },
+    
+    "savedSearchesSidebar": {
+        "color": "#FFFFFF",
+        "border": false,
+        "backgroundColor": "#0850AA",
+        "highlightedBackgroundColor": "#154B8F"
+    },
 
     "styles": {
         "base": {
