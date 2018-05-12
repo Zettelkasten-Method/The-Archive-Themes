@@ -13,11 +13,17 @@ The basic wireframe of a theme file is this:
         "editor": {
             // Editor attributes
         },
+        
+        "savedSearchesSidebar": {
+            // Saved Searches sidebar attributes (optional)
+        }, 
 
         "styles": {
             // Highlighter attributes
         }
     }
+
+**Note:** The `//` should indicate a comment. Please keep in mind that JSON does not in fact support comment syntax like this. So make sure you don't put these inside your theme files during theme development.
 
 ## Root-Level Keys
 
@@ -27,7 +33,8 @@ List of all root-level attributes:
 - `style`: String, either "Light" or "Dark"; used to filter themes for dark mode
 - `author`: Array of author detail objects
 - `version`: String
-- `editor`: a settings Object for the editor and user interface chrome; see details below
+- `editor`: a settings Object for the text editor; see details below
+- `savedSearchesSidebar`: a settings Object for the Saved Searches sidebar; see details below
 - `styles`: a settings Object for text and Markdown highlighting; see details below
 
 When I say "object" or "settings object", I mean a `{...}` delimited collection of sub-attributes.
@@ -58,14 +65,12 @@ This is a special set of styles that apply to the app text editor itself:
 - `caretColor`: hexadecimal color string for the insertion point in text fields, like `"#93a1a1"`
 - `highlight`: settings object for search highlights, if enabled by the user; accepts `color`, `backgroundColor`, and `unfocusedBackgroundColor`
 - `selection`: settings for user-selected text; accepts `color`, `backgroundColor`, and `unfocusedBackgroundColor`
-- `savedSearchesSidebar`: settings object to override the saved searches sidebar's colors; colors will be inherited from the editor and base style to blend in. You can override `color` (for text), `backgroundColor`, and the optional `highlightedBackgroundColor` to give visual feedback for click events. To keep the color variety limited, consider using the selection color as background.
 
 The difference between `backgroundColor` and `unfocusedBackgroundColor` is that the latter will be used when the user clicks into another component, for example the Omnibar, to indicate the text editor is not receiving key events. In other words: use this to help users figure out if typing on the keyboard would overwrite the highlighted part.
 
 ### Example
 
-Omitting the rest of the theme, here's the relevant part to change the `editor` settings:
-
+    // ...
     "editor": {
         "backgroundColor": "#ffffff",
         "caretColor": "#000000",
@@ -79,12 +84,28 @@ Omitting the rest of the theme, here's the relevant part to change the `editor` 
             "backgroundColor": "#cccccc",
             "unfocusedBackgroundColor": "#dddddd"
         },
-        "savedSearchesSidebar": {
-            "color": "#333333",
-            "backgroundColor": "#0850AA",
-            "highlightedBackgroundColor: "#154B8F"
-        }
+    }, 
+    // ...
+
+## `savedSearchesSidebar` Settings
+
+This is an optional set of colors to style the "Saved Searches" sidebar differently. By default, it inherits colors from the editor to blend in. To keep the color variety limited and not produce a rainbow of effectful color combinations, consider using the selection color as background.
+
+The accepted settings to override the default colors:
+
+- `color`: optional hexadecimal color string for the label text; defaults to `style.base.color`
+- `backgroundColor`: optional hexadecimal color string for the sidebar background; defaults to `editor.backgroundColor`
+- `highlightedBackgroundColor`: optional hexadecimal color string for item background when they are clicked on to provide visual feedback; defaults to `backgroundColor`
+
+### Example 
+
+    // ...
+    "savedSearchesSidebar": {
+        "color": "#333333",
+        "backgroundColor": "#0850AA",
+        "highlightedBackgroundColor: "#154B8F"
     },
+    // ...
 
 ## `styles` Settings
 
