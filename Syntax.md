@@ -58,10 +58,13 @@ This is a special set of styles that apply to the app text editor itself:
 - `caretColor`: hexadecimal color string for the insertion point in text fields, like `"#93a1a1"`
 - `highlight`: settings object for search highlights, if enabled by the user; accepts `color`, `backgroundColor`, and `unfocusedBackgroundColor`
 - `selection`: settings for user-selected text; accepts `color`, `backgroundColor`, and `unfocusedBackgroundColor`
+- `savedSearchesSidebar`: settings object to override the saved searches sidebar's colors; colors will be inherited from the editor and base style to blend in. You can override `color` (for text), `backgroundColor`, and the optional `highlightedBackgroundColor` to give visual feedback for click events. To keep the color variety limited, consider using the selection color as background.
 
 The difference between `backgroundColor` and `unfocusedBackgroundColor` is that the latter will be used when the user clicks into another component, for example the Omnibar, to indicate the text editor is not receiving key events. In other words: use this to help users figure out if typing on the keyboard would overwrite the highlighted part.
 
 ### Example
+
+Omitting the rest of the theme, here's the relevant part to change the `editor` settings:
 
     "editor": {
         "backgroundColor": "#ffffff",
@@ -75,6 +78,11 @@ The difference between `backgroundColor` and `unfocusedBackgroundColor` is that 
             "color": "#000000"
             "backgroundColor": "#cccccc",
             "unfocusedBackgroundColor": "#dddddd"
+        },
+        "savedSearchesSidebar": {
+            "color": "#333333",
+            "backgroundColor": "#0850AA",
+            "highlightedBackgroundColor: "#154B8F"
         }
     },
 
