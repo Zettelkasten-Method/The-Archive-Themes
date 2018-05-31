@@ -44,15 +44,7 @@
             "unfocusedColor": "#839496",
             "unfocusedBackgroundColor": "#002b36"
         },
-        "border": false,
-
-        "selection_": {
-            "color": "#fdf6e3",
-            "backgroundColor": "#b5437a",
-            "unfocusedColor": "#002b36",
-            "unfocusedBackgroundColor": "#764874"
-        },
-        "border_": "#001c23"
+        "border": false
     },
 
     "styles": {
