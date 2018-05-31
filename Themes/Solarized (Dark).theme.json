@@ -30,18 +30,19 @@
     },
 
     "savedSearchesSidebar": {
-        "color": "#839496",
+        "color": "#93a1a1",
         "backgroundColor": "#002b36",
         "border": false
     },
     
     "resultsList": {
         "color": "#839496",
-        "backgroundColor": "#073642",
+        "backgroundColor": "#00212B",
+        "alternateBackgroundColor": "#001A23",
         "selection": {
-            "color": "#839496",
+            "color": "#93a1a1",
             "backgroundColor": "#002b36",
-            "unfocusedColor": "#839496",
+            "unfocusedColor": "#93a1a1",
             "unfocusedBackgroundColor": "#002b36"
         },
         "border": false
