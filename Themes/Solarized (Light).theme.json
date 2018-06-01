@@ -37,16 +37,16 @@
     },
     
     "resultsList": {
-        "color": "#657b83",
-        "backgroundColor": "#FDF6E4",
-        "alternateBackgroundColor": "#F6EFDF",
+        "color": "#586e75",
+        "backgroundColor": "#EAE4D2",
+        "alternateBackgroundColor": "#F2EBD7",
         "selection": {
-            "color": "#586e75",
-            "backgroundColor": "#EAE4D2",
-            "unfocusedColor": "#586e75",
-            "unfocusedBackgroundColor": "#EAE4D2"
+            "color": "#FDF6E4",
+            "backgroundColor": "#657b83",
+            "unfocusedColor": "#657b83",
+            "unfocusedBackgroundColor": "#FDF6E4"
         },
-        "border": "#CCC6B7",
+        "border": false,
     },
 
     "styles": {
