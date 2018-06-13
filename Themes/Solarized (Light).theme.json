@@ -31,7 +31,7 @@
 
     "savedSearchesSidebar": {
         "color": "#657b83",
-        "backgroundColor": "#EAE4D2",
+        "backgroundColor": "#E0DAC9",
         "highlightedBackgroundColor": "#FDF6E4",
         "border": false,
         "iconColors": {
@@ -42,12 +42,12 @@
     "resultsList": {
         "color": "#657b83",
         "backgroundColor": "#FDF6E4",
-        "alternateBackgroundColor": "#FDF6E4",
+        "alternateBackgroundColor": "#F2EBDA",
         "selection": {
             "color": "#FDF6E4",
             "backgroundColor": "#657b83",
             "unfocusedColor": "#586e75",
-            "unfocusedBackgroundColor": "#EAE4D2"
+            "unfocusedBackgroundColor": "#E0DAC9"
         },
         "border": "#EAE4D2",
     },
