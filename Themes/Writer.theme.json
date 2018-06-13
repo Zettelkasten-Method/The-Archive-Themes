@@ -10,7 +10,7 @@
             "name": "Christian Tietze"
         }
     ],
-    "version": "1.1",
+    "version": "1.2",
 
     "editor": {
         "backgroundColor": "#fafafa",
@@ -23,6 +23,29 @@
             "backgroundColor": "#dddddd",
             "unfocusedBackgroundColor": "#ececec"
         }
+    },
+    
+    "savedSearchesSidebar": {
+        "color": "#222222",
+        "backgroundColor": "#DBDBDB",
+        "highlightedBackgroundColor": "#222222",
+        "border": false,
+        "iconColors": {
+            "default": "#414187"
+        }
+    },
+    
+    "resultsList": {
+        "color": "#222222",
+        "backgroundColor": "#ffffff",
+        "alternateBackgroundColor": "#f5f5f5",
+        "selection": {
+            "color": "#ffffff",
+            "backgroundColor": "#0069D9",
+            "unfocusedColor": "#222222",
+            "unfocusedBackgroundColor": "#DBDBDB"
+        },
+        "border": "#d4d4d4",
     },
 
     "styles": {
