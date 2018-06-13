@@ -4,10 +4,10 @@
     "author": [
         {
             "name": "NSSynapse",
-            "comment": "This basic version of the PrettyFunctional theme only contains the color settings. The marquee feature of the regular version, to mix a fixed-width font for code elements with a pretty variable-width font such as Helvetica Neue or SF Pro Text for everything else, is missing from this version."
+            "comment": "This basic version of the PrettyFunctional theme only contains color settings. The marquee feature of the regular version, to mix a fixed-width font for code elements with a pretty variable-width font such as Helvetica Neue or SF Pro Text for everything else, is missing from this version. You can get the regular version at: https://forum.zettelkasten.de/discussion/222/theme-prettyfunctional-regular/"
         }
     ],
-    "version": "1.2",
+    "version": "1.3",
 
     "editor": {
         "backgroundColor": "#fafafa",
@@ -15,7 +15,30 @@
         "highlight": {
             "backgroundColor": "#b4d6fd",
             "unfocusedBackgroundColor": "#d7e7f4"
+        }
+    },
+    
+    "savedSearchesSidebar": {
+        "color": "#fafafa",
+        "border": true,
+        "backgroundColor": "#606f9f",
+        "highlightedBackgroundColor": "#405ebf",
+        "iconColors": {
+            "default": "#fafafa"
+        }
+    },
+
+    "resultsList": {
+        "color": "#323232",
+        "backgroundColor": "#fafafa",
+        "alternateBackgroundColor": "#e9e9e9",
+        "selection": {
+            "color": "#fafafa",
+            "backgroundColor": "#405ebf",
+            "unfocusedColor": "#fafafa",
+            "unfocusedBackgroundColor": "#606f9f"
         },
+        "border": true
     },
     
     "savedSearchesSidebar": {
@@ -60,16 +83,16 @@
         },
 
         "codeBlock": {
-        	"color": "#425257",
-        	"backgroundColor": "#f5f5f5"
-    	},
+            "color": "#425257",
+            "backgroundColor": "#f5f5f5"
+        },
         "inlineCode": {
-        	"color": "#425257",
-        	"backgroundColor": "#f5f5f5"
-    	},
+            "color": "#425257",
+            "backgroundColor": "#f5f5f5"
+        },
         "blockquote": {
-        	"color": "#6f582a",
-        	"backgroundColor": "#f5f5f5"
+            "color": "#6f582a",
+            "backgroundColor": "#f5f5f5"
         },
         "list": {
             "syntax": { "color" : "#323232" }
@@ -83,13 +106,13 @@
         },
 
         "image": {
-            "color": "#555555"
+            "color": "#737373"
         },
         "link": {
             "color": "#244bc2"
         },
         "referenceDefinition": {
-            "color": "#555555"
+            "color": "#737373"
         },
 
         "comment": {
