@@ -1,17 +1,17 @@
 {
-    "name": "Tomorrow",
+    "name": "Tomorrow Night Eighties",
     "style": "Dark",
     "author": [
         {
-            "name": "Chen Luo",
-            "url": "http://25.io/mou/"
+            "name": "Chris Kempson",
+            "url": "https://github.com/ChrisKempson/Tomorrow-Theme"
         },
         {
             "name": "Christian Tietze"
         }
     ],
-    "version": "1.1",
-    
+    "version": "1.2",
+
     "editor": {
         "backgroundColor": "#2d2d2d",
         "caretColor": "#cc99cc",
@@ -25,6 +25,30 @@
             "unfocusedBackgroundColor": "#292929"
         }
     },
+
+    "savedSearchesSidebar": {
+        "color": "#cccccc",
+        "backgroundColor": "#393939",
+        "highlightedBackgroundColor": "#515151",
+        "border": false,
+        "iconColors": {
+            "default": "#6699cc"
+        }
+    },
+    
+    "resultsList": {
+        "color": "#cccccc",
+        "backgroundColor": "#2d2d2d",
+        "alternateBackgroundColor": "#393939",
+        "selection": {
+            "color": "#ffffff",
+            "backgroundColor": "#515151",
+            "unfocusedColor": "#ffffff",
+            "unfocusedBackgroundColor": "#515151",
+        },
+        "border": "#141414",
+    },
+
 
     "styles": {
         "base": {
