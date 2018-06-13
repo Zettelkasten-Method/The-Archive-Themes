@@ -13,36 +13,40 @@
             "name": "Christian Tietze"
         }
     ],
-    "version": "1.1",
+    "version": "1.2",
 
     "editor": {
         "backgroundColor": "#002b36",
         "caretColor": "#839496",
         "highlight": {
-            "backgroundColor": "#1c6782",
-            "unfocusedBackgroundColor": "#2a4e75"
+            "backgroundColor": "#00161e",
+            "unfocusedBackgroundColor": "#00212B"
         },
         "selection": {
             "color": "#002b36",
             "backgroundColor": "#839496",
-            "unfocusedBackgroundColor": "#ae3c82"
+            "unfocusedBackgroundColor": "#647173"
         }
     },
 
     "savedSearchesSidebar": {
         "color": "#93a1a1",
         "backgroundColor": "#002b36",
-        "border": false
+        "highlightedBackgroundColor": "#00161e",
+        "border": false,
+        "iconColors": {
+            "default": "#6c71c4"
+        }
     },
     
     "resultsList": {
         "color": "#839496",
         "backgroundColor": "#00212B",
-        "alternateBackgroundColor": "#001A23",
+        "alternateBackgroundColor": "#031E20",
         "selection": {
-            "color": "#93a1a1",
+            "color": "#a9bcbb",
             "backgroundColor": "#002b36",
-            "unfocusedColor": "#93a1a1",
+            "unfocusedColor": "#8da0a2",
             "unfocusedBackgroundColor": "#002b36"
         },
         "border": false
