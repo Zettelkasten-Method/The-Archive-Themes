@@ -40,7 +40,10 @@
         "color": "#97B3B8",
         "backgroundColor": "#303030",
         "highlightedBackgroundColor": "#3B3F41",
-        "border": "#1F1F1F"
+        "border": "#1F1F1F",
+        "iconColors": {
+            "default": "#ffd866"
+        }
     },
     
     "resultsList": {
