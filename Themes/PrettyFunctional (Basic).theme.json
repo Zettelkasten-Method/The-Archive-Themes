@@ -1,19 +1,19 @@
 {
-    "name": "PrettyFunctional (Basic)",
+    "name": "PrettyFunctional (Regular)",
     "style": "Light",
     "author": [
         {
-            "name": "NSSynapse",
-            "comment": "This basic version of the PrettyFunctional theme only contains color settings. The marquee feature of the regular version, to mix a fixed-width font for code elements with a pretty variable-width font such as Helvetica Neue or SF Pro Text for everything else, is missing from this version. You can get the regular version at: https://forum.zettelkasten.de/discussion/222/theme-prettyfunctional-regular/"
+            "name": "NSSynapse (Basil)",
+            "comment": "For better results, set The Archive's font to 'HelveticaNeue, 13pt' or another variable-width font of choice. For best results, download Apple's San Francisco font and set The Archive's font to 'SFProText-Regular, 13pt'. This theme does not yet get updated via The Archive's Theme Updater, but whenever you see an update for PrettyFunctional (Basic), an updated version of PrettyFunctional (Regular) will be available at: https://forum.zettelkasten.de/discussion/222/theme-prettyfunctional-regular/"
         }
     ],
-    "version": "1.3",
+    "version": "1.4",
 
     "editor": {
         "backgroundColor": "#fafafa",
-        "caretColor": "#0080ff",
+        "caretColor": "#0d99fc",
         "highlight": {
-            "backgroundColor": "#b4d6fd",
+            "backgroundColor": "#b2d7ff",
             "unfocusedBackgroundColor": "#d7e7f4"
         }
     },
@@ -21,61 +21,54 @@
     "savedSearchesSidebar": {
         "color": "#fafafa",
         "border": true,
-        "backgroundColor": "#606f9f",
-        "highlightedBackgroundColor": "#405ebf",
+        "backgroundColor": "#0d66a5",
+        "highlightedBackgroundColor": "#2b5bee",
         "iconColors": {
             "default": "#fafafa"
         }
     },
 
     "resultsList": {
-        "color": "#323232",
+        "color": "#414141",
         "backgroundColor": "#fafafa",
-        "alternateBackgroundColor": "#e9e9e9",
+        "alternateBackgroundColor": "#ededed",
         "selection": {
             "color": "#fafafa",
-            "backgroundColor": "#405ebf",
+            "backgroundColor": "#2b5bee",
             "unfocusedColor": "#fafafa",
-            "unfocusedBackgroundColor": "#606f9f"
+            "unfocusedBackgroundColor": "#0d66a5"
         },
         "border": true
-    },
-    
-    "savedSearchesSidebar": {
-        "color": "#FFFFFF",
-        "border": false,
-        "backgroundColor": "#0850AA",
-        "highlightedBackgroundColor": "#154B8F"
     },
 
     "styles": {
         "base": {
-            "color": "#323232"
+            "color": "#414141"
         },
 
         "h1": {
             "font": { "style": "bold" },
-            "color": "#a11212"
+            "color": "#b0251e"
         },
         "h2": {
             "font": {  "style": "bold" },
-            "color": "#ad1f1f"
+            "color": "#bb332e"
         },
         "h3": {
             "font": {  "style": "bold" },
-            "color": "#a32929"
+            "color": "#b23d39"
         },
         "h4": {
             "font": {  "style": "bold" },
-            "color": "#993333"
+            "color": "#a94745"
         },
         "h5": {
             "font": {  "style": "bold" },
-            "color": "#993333"
+            "color": "#a94745"
         },
         "h6": {
             "font": {  "style": "bold" },
-            "color": "#993333"
+            "color": "#a94745"
         },
         
         "horizontalRule": {
@@ -83,19 +76,21 @@
         },
 
         "codeBlock": {
-            "color": "#425257",
+            "font": { "name": "Monaco", "size": 12 },
+            "color": "#54656a",
             "backgroundColor": "#f5f5f5"
         },
         "inlineCode": {
-            "color": "#425257",
+            "font": { "name": "Monaco", "size": 12 },
+            "color": "#54656a",
             "backgroundColor": "#f5f5f5"
         },
         "blockquote": {
-            "color": "#6f582a",
+            "color": "#826a3b",
             "backgroundColor": "#f5f5f5"
         },
         "list": {
-            "syntax": { "color" : "#323232" }
+            "syntax": { "color" : "#414141" }
         },
 
         "emphasis": {
@@ -109,19 +104,19 @@
             "color": "#737373"
         },
         "link": {
-            "color": "#244bc2"
+            "color": "#3266ca"
         },
         "referenceDefinition": {
             "color": "#737373"
         },
 
         "comment": {
-            "color": "#b8b8b8",
+            "color": "#c3c3c3",
             "font": {  "style": "regular" }
         },
         
         "footnote": {
-            "color": "#069393"
+            "color": "#057a7a"
         }
     }
 }
