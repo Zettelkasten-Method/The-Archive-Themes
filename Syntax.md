@@ -16,7 +16,11 @@ The basic wireframe of a theme file is this:
         
         "savedSearchesSidebar": {
             // Saved Searches sidebar attributes (optional)
-        }, 
+        },
+        
+        "resultsList": {
+            // List of notes/search results (optional)
+        },
 
         "styles": {
             // Highlighter attributes
@@ -35,6 +39,7 @@ List of all root-level attributes:
 - `version`: String
 - `editor`: a settings Object for the text editor; see details below
 - `savedSearchesSidebar`: a settings Object for the Saved Searches sidebar; see details below
+- `resultsList`: a settings Object for the search results sidebar, showing the note titles; see details below
 - `styles`: a settings Object for text and Markdown highlighting; see details below
 
 When I say "object" or "settings object", I mean a `{...}` delimited collection of sub-attributes.
@@ -64,7 +69,7 @@ This is a special set of styles that apply to the app text editor itself:
 - `backgroundColor`: hexadecimal color string for the app's background, like `"#93a1a1"`
 - `caretColor`: hexadecimal color string for the insertion point in text fields, like `"#93a1a1"`
 - `highlight`: settings object for search highlights, if enabled by the user; accepts `color`, `backgroundColor`, and `unfocusedBackgroundColor`
-- `selection`: settings for user-selected text; accepts `color`, `backgroundColor`, and `unfocusedBackgroundColor`
+- `selection`: settings for user-selected text; accepts `color`, `unfocusedColor`, `backgroundColor`, and `unfocusedBackgroundColor`
 
 The difference between `backgroundColor` and `unfocusedBackgroundColor` is that the latter will be used when the user clicks into another component, for example the Omnibar, to indicate the text editor is not receiving key events. In other words: use this to help users figure out if typing on the keyboard would overwrite the highlighted part.
 
@@ -89,7 +94,7 @@ The difference between `backgroundColor` and `unfocusedBackgroundColor` is that 
 
 ## `savedSearchesSidebar` Settings
 
-This is an optional set of colors to style the "Saved Searches" sidebar differently. By default, it inherits colors from the editor to blend in. To keep the color variety limited and not produce a rainbow of effectful color combinations, consider using the selection color as background.
+This is an optional set of colors to style the "Saved Searches" sidebar differently. By default, it inherits colors from the editor to blend in. To keep the color variety limited and not produce a rainbow of effectful color combinations, consider reusing editor colors for search highlights or similar here if in doubt.
 
 The accepted settings to override the default colors:
 
@@ -106,6 +111,44 @@ The accepted settings to override the default colors:
         "highlightedBackgroundColor: "#154B8F"
     },
     // ...
+
+## `resultsList` Settings
+
+This is also optional. The colors are used to style the list of search results, or note titles. By default, it inherits colors from the editor to blend in.
+
+The accepted settings to override the default colors:
+
+- `color`: optional hexadecimal color string for the search result title text; defaults to `style.base.color`
+- `backgroundColor`: optional hexadecimal color string for the list item's background; defaults to `editor.backgroundColor`
+- `alternateBackgroundColor`: optional hexadecimal color string for the list item's background when "Alternate Row Colors" is enabled by the user; defaults to `editor.backgroundColor`
+- `border`: optional, use to configure the visible border between the list of results and the editor. You may want to deactivate a visible border when the background colors provide enough contrast, for example. Accepted values: `false`, to deactivate; `true`, to use the macOS system default color; or a hexadecimal color string. Defaults to `true`.
+- `selection`: optional settings for user-selected notes in the list; similar to text selection in the `editor` block (see above). Accepts `color`, `unfocusedColor`, `backgroundColor`, and `unfocusedBackgroundColor`. The "unfocused" variants are used to help users figure out when hitting keys on their keyboard will affect the notes selection, for example. If you don't provide these variants, the default (focused) variants are used.
+
+### Example
+
+This is from the _Solarized (Light)_ theme:
+
+    // ...
+    "resultsList": {
+        "color": "#657b83",
+        "backgroundColor": "#FDF6E4",
+        "alternateBackgroundColor": "#F2EBDA",
+        "selection": {
+            "color": "#FDF6E4",
+            "backgroundColor": "#657b83",
+            "unfocusedColor": "#586e75",
+            "unfocusedBackgroundColor": "#E0DAC9"
+        },
+        "border": "#EAE4D2",
+    },
+    // ...
+
+- The background is the same color as the editor; the alternate is a slightly darker variation;
+- the text color is the default editor text color, too, so the sidebar would blend in with the editor seamlessly;
+- a border is set to have a visual separator;
+- the selection colors are similar to text selection colors.
+
+Note that other themes, like _Solarized (Dark)_, omit borders and use a darker background for the whole result list for maximum contrast. That works just as well, visually.
 
 ## `styles` Settings
 
