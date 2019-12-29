@@ -1,0 +1,196 @@
+{
+    "name": "base16 (macOS Dark)",
+    "style": "Dark",
+    "version": "1.0",
+    "author": [
+        {
+            "name": "Paul Ryley",
+            "url": "https://github.com/pryley"
+        },
+        {
+            "name": "Chris Kempson",
+            "url": "https://github.com/chriskempson/base16"
+        }
+    ],
+    "editor": {
+        "backgroundColor": "#1E1E1E",
+        "caretColor": "#d8d8d8",
+        "highlight": {
+            "backgroundColor": "#282828",
+            "unfocusedBackgroundColor": "#282828"
+        },
+        "selection": {
+            "backgroundColor": "#555555",
+            "color": "#ffffff",
+            "unfocusedBackgroundColor": "#464646"
+        }
+    },
+    "resultsList": {
+        "alternateBackgroundColor": "#282828",
+        "backgroundColor": "#1E1E1E",
+        "border": "#141414",
+        "color": "#E1E1E1",
+        "selection": {
+            "backgroundColor": "#464646",
+            "color": "#ffffff",
+            "unfocusedBackgroundColor": "#464646",
+            "unfocusedColor": "#ffffff"
+        }
+    },
+    "savedSearchesSidebar": {
+        "backgroundColor": "#282828",
+        "border": "#141414",
+        "color": "#E1E1E1",
+        "highlightedBackgroundColor": "#464646",
+        "iconColors": {
+            "default": "#A7A7A7"
+        }
+    },
+    "styles": {
+        "base": {
+            "color": "#d8d8d8",
+        },
+        "blockquote": {
+            "color": "#86c1b9",
+            "font": {
+                "style": "italic"
+            },
+            "syntax": {
+                "color": "#585858"
+            }
+        },
+        "codeBlock": {
+            "backgroundColor": "#181818",
+            "color": "#a1b56c",
+            "syntax": {
+                "color": "#585858"
+            }
+        },
+        "comment": {
+            "color": "#585858",
+            "font": {
+                "style": "regular"
+            },
+        },
+        "emphasis": {
+            "color": "#dc9656",
+            "font": {
+                "style": "italic"
+            },
+            "syntax": {
+                "color": "#585858"
+            }
+        },
+        "footnote": {
+            "color": "#ba8baf",
+            "syntax": {
+                "color": "#585858"
+            }
+        },
+        "h1": {
+            "color": "#ab4642",
+            "font": {
+                "style": "bold"
+            },
+            "syntax": {
+                "color": "#585858"
+            }
+        },
+        "h2": {
+            "color": "#ab4642",
+            "font": {
+                "style": "bold"
+            },
+            "syntax": {
+                "color": "#585858"
+            }
+        },
+        "h3": {
+            "color": "#ab4642",
+            "font": {
+                "style": "bold"
+            },
+            "syntax": {
+                "color": "#585858"
+            }
+        },
+        "h4": {
+            "color": "#ab4642",
+            "font": {
+                "style": "bold"
+            },
+            "syntax": {
+                "color": "#585858"
+            }
+        },
+        "h5": {
+            "color": "#ab4642",
+            "font": {
+                "style": "bold"
+            },
+            "syntax": {
+                "color": "#585858"
+            }
+        },
+        "h6": {
+            "color": "#ab4642",
+            "font": {
+                "style": "bold"
+            },
+            "syntax": {
+                "color": "#585858"
+            }
+        },
+        "header": {
+            "syntax": {
+                "color": "#585858"
+            }
+        },
+        "horizontalRule": {
+            "color": "#d8d8d8"
+        },
+        "image": {
+            "color": "#ba8baf",
+            "syntax": {
+                "color": "#585858"
+            }
+        },
+        "inlineCode": {
+            "color": "#a1b56c",
+            "syntax": {
+                "color": "#585858"
+            }
+        },
+        "link": {
+            "color": "#7cafc2",
+            "syntax": {
+                "color": "#585858"
+            }
+        },
+        "list": {
+            "syntax": {
+                "color" : "#585858"
+            }
+        },
+        "referenceDefinition": {
+            "color": "#ba8baf",
+            "syntax": {
+                "color": "#585858"
+            }
+        },
+        "strong": {
+            "color": "#f7ca88",
+            "font": {
+                "style": "bold"
+            },
+            "syntax": {
+                "color": "#585858"
+            }
+        },
+        "table": {
+            "syntax": {
+                "color": "#585858"
+            }
+        }
+    }
+}
