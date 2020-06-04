@@ -1,0 +1,136 @@
+{
+    "name": "Dracula",
+    "style": "Dark",
+    "author": [
+        {
+            "name": "Infinite While",
+            "url": "https://www.infinitewhile.com"
+        }
+    ],
+    "version": "1.0",
+
+    "editor": {
+        "backgroundColor": "#282a36",
+        "caretColor": "#50fa7b",
+        "selection": {
+            "backgroundColor": "#44475a",
+            "unfocusedBackgroundColor": "#44475a"
+        },
+        "highlight": {
+            "backgroundColor": "#f1fa8c",
+            "unfocusedBackgroundColor": "#f1fa8c",
+            "color": "#282a36"
+        }
+    },
+    
+    "savedSearchesSidebar": {
+        "color": "#f8f8f2",
+        "backgroundColor": "#44475a",
+        "highlightedBackgroundColor": "#44475a",
+        "border": false,
+        "iconColors": {
+            "default": "#8be9fd"
+        }
+    },
+    
+    "resultsList": {
+        "color": "#f8f8f2",
+        "backgroundColor": "#282a36",
+        "alternateBackgroundColor": "#282a36",
+        "selection": {
+            "color": "#f8f8f2",
+            "backgroundColor": "#44475a",
+            "unfocusedColor": "#f8f8f2",
+            "unfocusedBackgroundColor": "#44475a"
+        },
+        "border": "#282a36"
+    },
+
+    "styles": {
+        "base": {
+            "color": "#f8f8f2"
+        },
+
+        "h1": {
+            "color": "#bd93f9",
+            "font": { "style": "bold" }
+        },
+        "h2": {
+            "color": "#bd93f9",
+            "font": { "style": "bold" }
+        },
+        "h3": {
+            "color": "#bd93f9",
+            "font": { "style": "bold" }
+        },
+        "h4": {
+            "color": "#bd93f9",
+            "font": { "style": "bold" }
+        },
+        "h5": {
+            "color": "#bd93f9",
+            "font": { "style": "bold" }
+        },
+        "h6": {
+            "color": "#bd93f9",
+            "font": { "style": "bold" }
+        },
+        
+        "horizontalRule": {
+            "color": "#6272a4"
+        },
+
+        "codeBlock": {
+            "color": "#50fa7b"
+        },
+        "inlineCode": {
+            "color": "#50fa7b"
+        },
+
+        "blockquote": {
+            "color": "#f1fa8c"
+        },
+        "list": {
+            "syntax": { "color" : "#8be9fd" }
+        },
+
+        "emphasis": {
+            "color": "#f1fa8c",
+            "font": { "style": "italic" }
+        },
+        "strong": {
+            "color": "#ffb86c",
+            "font": { "style": "bold" }
+        },
+
+        "image": {
+            "color": "#ff79c6",
+            "syntax": {
+                "color": "#8be9fd"
+            }
+        },
+        "footnote": {
+            "color": "#ff79c6",
+            "syntax": {
+                "color": "#8be9fd"
+            }
+        },
+        "link": {
+            "color": "#ff79c6",
+            "syntax": {
+                "color": "#8be9fd"
+            }
+        },
+        "referenceDefinition": {
+            "color": "#ff79c6",
+            "syntax": {
+                "color": "#8be9fd"
+            }
+        },
+
+        "comment": {
+            "color": "#6272a4",
+            "font": { "style": "regular" }
+        }
+    }
+}
