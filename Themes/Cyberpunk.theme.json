@@ -1,0 +1,192 @@
+{
+  "name": "Cyberpunk",
+  "style": "Dark",
+  "version": "1.0",
+  "author": [
+    {
+      "name": "Brett Wilcox",
+      "url": "https://scorpion.io"
+    }
+  ],
+  "editor": {
+    "backgroundColor": "#110c24",
+    "caretColor": "#eaffff",
+    "highlight": {
+      "backgroundColor": "#662db8",
+      "unfocusedBackgroundColor": "#0077ff"
+    },
+    "selection": {
+      "backgroundColor": "#371298",
+      "color": "#e6e6e6",
+      "unfocusedBackgroundColor": "#283299"
+    }
+  },
+  "resultsList": {
+    "alternateBackgroundColor": "#151330",
+    "backgroundColor": "#1f1c48",
+    "border": "#0a0410",
+    "color": "#8a94ff",
+    "selection": {
+      "backgroundColor": "#002315",
+      "color": "#00ff92",
+      "unfocusedBackgroundColor": "#110c24",
+      "unfocusedColor": "#d2a600"
+    }
+  },
+  "savedSearchesSidebar": {
+    "backgroundColor": "#110c24",
+    "border": "#0a0410",
+    "color": "#00ff92",
+    "highlightedBackgroundColor": "#1f1c48",
+    "iconColors": {
+      "default": "#007052"
+    }
+  },
+  "styles": {
+    "base": {
+      "color": "#e6e6e6"
+    },
+    "blockquote": {
+      "color": "#86c1b9",
+      "font": {
+        "style": "italic"
+      },
+      "syntax": {
+        "color": "#00b2ff"
+      }
+    },
+    "codeBlock": {
+      "backgroundColor": "#151330",
+      "color": "#d18df0",
+      "syntax": {
+        "color": "#00b2ff"
+      }
+    },
+    "comment": {
+      "color": "#6864b8",
+      "font": {
+        "style": "italic"
+      }
+    },
+    "emphasis": {
+      "color": "#ff6774",
+      "font": {
+        "style": "italic"
+      },
+      "syntax": {
+        "color": "#5dc2ff"
+      }
+    },
+    "footnote": {
+      "color": "#ba8baf",
+      "syntax": {
+        "color": "#b9ea80"
+      }
+    },
+    "h1": {
+      "color": "#00ff92",
+      "font": {
+        "style": "bold"
+      },
+      "syntax": {
+        "color": "#b9ea80"
+      }
+    },
+    "h2": {
+      "color": "#00ff92",
+      "font": {
+        "style": "bold"
+      },
+      "syntax": {
+        "color": "#b9ea80"
+      }
+    },
+    "h3": {
+      "color": "#00ff92",
+      "font": {
+        "style": "bold"
+      },
+      "syntax": {
+        "color": "#b9ea80"
+      }
+    },
+    "h4": {
+      "color": "#00ff92",
+      "font": {
+        "style": "bold"
+      },
+      "syntax": {
+        "color": "#b9ea80"
+      }
+    },
+    "h5": {
+      "color": "#00ff92",
+      "font": {
+        "style": "bold"
+      },
+      "syntax": {
+        "color": "#b9ea80"
+      }
+    },
+    "h6": {
+      "color": "#00ff92",
+      "font": {
+        "style": "bold"
+      },
+      "syntax": {
+        "color": "#b9ea80"
+      }
+    },
+    "header": {
+      "syntax": {
+        "color": "#b9ea80"
+      }
+    },
+    "horizontalRule": {
+      "color": "#eaffff"
+    },
+    "image": {
+      "color": "#ba8baf",
+      "syntax": {
+        "color": "#00b2ff"
+      }
+    },
+    "inlineCode": {
+      "color": "#ff8663",
+      "syntax": {
+        "color": "#00b2ff"
+      }
+    },
+    "link": {
+      "color": "#00b2ff",
+      "syntax": {
+        "color": "#ffd700"
+      }
+    },
+    "list": {
+      "syntax": {
+        "color": "#00b2ff"
+      }
+    },
+    "referenceDefinition": {
+      "color": "#ba8baf",
+      "syntax": {
+        "color": "#b9ea80"
+      }
+    },
+    "strong": {
+      "color": "#ff6774",
+      "font": {
+        "style": "bold"
+      },
+      "syntax": {
+        "color": "#5dc2ff"
+      }
+    },
+    "table": {
+      "syntax": {
+        "color": "#5dc2ff"
+      }
+    }
+  }
+}
