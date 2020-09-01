@@ -8,6 +8,7 @@
       "url": "https://scorpion.io"
     }
   ],
+  "description": "The font https://github.com/kencrocken/FiraCodeiScript is recommended with this theme",
   "editor": {
     "backgroundColor": "#110c24",
     "caretColor": "#eaffff",
