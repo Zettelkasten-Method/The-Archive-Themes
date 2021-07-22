@@ -1,0 +1,147 @@
+{
+    "name": "The Coding Writer",
+    "style": "Light",
+    "author": [
+        {
+            "name": "Chen Luo",
+            "url": "http://25.io/mou/"
+        },
+        {
+            "name": "Christian Tietze"
+        },
+        {
+            "name": "Stephan Bogner",
+            "url": "https://stephanbogner.de/"
+        }
+    ],
+    "version": "1.0",
+
+    "editor": {
+        "backgroundColor": "#FCFCFD",
+        "caretColor": "#00b9ff",
+        "selection": {
+            "backgroundColor": "#b2d7ff",
+            "unfocusedBackgroundColor": "#d2d9e1"
+        },
+        "highlight": {
+            "backgroundColor": "#dddddd",
+            "unfocusedBackgroundColor": "#ececec"
+        }
+    },
+    
+    "savedSearchesSidebar": {
+        "color": "#222222",
+        "backgroundColor": "#F6F7F9",
+        "highlightedBackgroundColor": "#222222",
+        "border": true,
+        "iconColors": {
+            "default": "#414187"
+        }
+    },
+    
+    "resultsList": {
+        "color": "#767676",
+        "backgroundColor": "#FCFCFD",
+        "selection": {
+            "color": "#fff",
+            "backgroundColor": "#182371",
+            "unfocusedColor": "#fff",
+            "unfocusedBackgroundColor": "#444970"
+        },
+        "border": "#d4d4d4"
+    },
+
+    "styles": {
+        "base": {
+            "color": "#424242",
+            "font": {
+                "name": "iA Writer Duospace"
+            }
+        },
+
+        "h1": {
+            "font": {
+                "style": "bold",
+                "relativeSize": "115%"
+            },
+            "color": "#172073"
+        },
+        "h2": {
+            "font": {
+                "style": "bold",
+                "relativeSize": "110%"
+            },
+            "color": "#172073"
+        },
+        "h3": {
+            "font": {
+                "style": "bold",
+                "relativeSize": "105%"
+            },
+            "color": "#172073"
+        },
+        "h4": {
+            "font": {
+                "style": "bold"
+            },
+            "color": "#172073"
+        },
+        "h5": {
+            "font": {
+                "style": "bold"
+            },
+            "color": "#172073"
+        },
+        "h6": {
+            "font": {
+                "style": "bold"
+            },
+            "color": "#172073"
+        },
+        
+        "horizontalRule": {
+            "color": "#00b9ff"
+        },
+
+        "codeBlock": {
+            "color": "#555555",
+            "backgroundColor": "#F6F7F9"
+        },
+        "inlineCode": {
+            "color": "#555555",
+            "backgroundColor": "#EEF1F4"
+        },
+
+        "blockquote": {
+            "backgroundColor": "#F6F7F9"
+        },
+        "list": {
+            "syntax": { "color" : "#9E9EA3" }
+        },
+
+        "emphasis": {
+            "font": { "style": "italic" }
+        },
+        "strong": {
+            "font": { "style": "bold" }
+        },
+
+        "image": {
+            "color": "#555555"
+        },
+        "footnote": {
+            "backgroundColor": "#F3F2EC"
+        },
+        "link": {
+            "color": "#3B438D"
+        },
+        "referenceDefinition": {
+            "color": "#555555"
+        },
+
+        "comment": {
+            "color": "#bbbbbb",
+            "font": { "style": "regular" }
+        }
+    }
+}
