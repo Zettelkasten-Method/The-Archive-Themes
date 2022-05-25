@@ -1,0 +1,121 @@
+{
+    "name": "Inspired by Things",
+    "style": "Dark",
+    "author": [
+        {
+            "name": "Matt Stratford",
+            "twitter": "@mattstratford"
+        }
+    ],
+    "version": "0.1",
+
+    "editor": {
+        "backgroundColor": "#1D2229",
+        "caretColor": "#FE3A6F",
+        "selection": {
+            "backgroundColor": "#6BAEF8",
+            "unfocusedBackgroundColor": "#CAE2FE"
+        },
+        "highlight": {
+            "backgroundColor": "#5694F9",
+            "unfocusedBackgroundColor": "#F04E98"
+        }
+    },
+
+    "savedSearchesSidebar": {
+        "color": "#FFFFFF",
+        "backgroundColor": "#1D2229",
+        "highlightedBackgroundColor": "#FED530",
+        "border": false,
+        "iconColors": {
+            "default": "#6BAEF8"
+        }
+    },
+
+    "resultsList": {
+        "color": "#FAF4D1",
+        "backgroundColor": "#1D2229",
+        "alternateBackgroundColor": "#1D2229",
+        "selection": {
+            "color": "#383B3F",
+            "backgroundColor": "#CAE2FE",
+            "unfocusedColor": "#383B3F",
+            "unfocusedBackgroundColor": "#E7EAED"
+        },
+        "border": "#6BAEF8",
+    },
+
+    "styles": {
+        "base": {
+            "color": "#FFFFFF",
+            "font-family":"iA Writer Quattro V, Courier, sans-serif"
+        },
+
+        "h1": {
+            "font": { "style": "bold" }
+        },
+        "h2": {
+            "font": { "style": "bold" }
+        },
+        "h3": {
+            "font": { "style": "bold" }
+        },
+        "h4": {
+            "font": { "style": "bold" }
+        },
+        "h5": {
+            "font": { "style": "bold" }
+        },
+        "h6": {
+            "font": { "style": "bold" }
+        },
+
+        "horizontalRule": {
+            "color": "#ABAFB4"
+        },
+
+        "codeBlock": {
+            "backgroundColor": "#3AA59A",
+            "font-family":"iA Writer Mono S, Courier, sans-serif",
+            "size":"12px"
+        },
+        "inlineCode": {
+            "backgroundColor": "#3AA59A",
+            "font-family":"iA Writer Mono S, Courier, sans-serif",
+            "size":"12px"
+        },
+
+        "blockquote": {
+            "backgroundColor": "#6BAEF8",
+            "font": { "style": "italic" }
+        },
+        "list": {
+            "syntax": { "color" : "#F04E98" }
+        },
+
+        "emphasis": {
+            "font": { "style": "italic" }
+        },
+        "strong": {
+            "font": { "style": "bold" }
+        },
+
+        "image": {
+            "color": "#4DBD62"
+        },
+        "footnote": {
+            "color": "#ABAFB4"
+        },
+        "link": {
+            "color": "#5694F9"
+        },
+        "referenceDefinition": {
+            "color": "#ABAFB4"
+        },
+
+        "comment": {
+            "color": "#C7C4C2",
+            "font": { "style": "regular" }
+        }
+    }
+}
