@@ -44,7 +44,6 @@
     "styles": {
         "base": {
             "color": "#1D2229",
-            "font-family":"iA Writer Quattro V, Courier, sans-serif"
         },
         "h1": {
             "font": { "style": "bold" }
@@ -69,26 +68,24 @@
         },
         "codeBlock": {
             "backgroundColor": "#E7EAED",
-            "font-family": "iA Writer Mono S, Courier New, sans-serif",
-            "size":"12px"
         },
         "inlineCode": {
             "backgroundColor": "#E7EAED",
-            "font-family": "iA Writer Mono S, Courier New, sans-serif",
-            "size":"12px"
         },
         "blockquote": {
             "font": { "style": "italic" },
-            "color": "#F04E98"
+            "color": "#4DBD62"
         },
         "list": {
             "syntax": { "color" : "#F04E98" }
         },
         "emphasis": {
-            "font": { "style": "italic" }
+            "font": { "style": "italic" },
+            "color": "#FE3A6F"
         },
         "strong": {
-            "font": { "style": "bold" }
+            "font": { "style": "bold" },
+            "color": "#FE3A6F"
         },
         "image": {
             "color": "#4DBD62"
@@ -104,7 +101,7 @@
         },
         "comment": {
             "color": "#C7C4C2",
-            "font": { "style": "regular" }
+            "font": { "style" : "regular" }
         }
     }
 }

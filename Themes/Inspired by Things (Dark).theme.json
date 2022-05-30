@@ -14,7 +14,7 @@
         "caretColor": "#FE3A6F",
         "selection": {
             "backgroundColor": "#6BAEF8",
-            "unfocusedBackgroundColor": "#CAE2FE"
+            "unfocusedBackgroundColor": "#254174"
         },
         "highlight": {
             "backgroundColor": "#5694F9",
@@ -28,27 +28,26 @@
         "highlightedBackgroundColor": "#FED530",
         "border": false,
         "iconColors": {
-            "default": "#6BAEF8"
+            "default": "#ABAFB4"
         }
     },
 
     "resultsList": {
-        "color": "#FAF4D1",
+        "color": "#E7EAED",
         "backgroundColor": "#1D2229",
         "alternateBackgroundColor": "#1D2229",
         "selection": {
-            "color": "#383B3F",
-            "backgroundColor": "#CAE2FE",
-            "unfocusedColor": "#383B3F",
-            "unfocusedBackgroundColor": "#E7EAED"
+            "color": "#E7EAED",
+            "backgroundColor": "#254174",
+            "unfocusedColor": "#E7EAED",
+            "unfocusedBackgroundColor": "#393C3F"
         },
         "border": "#6BAEF8",
     },
 
     "styles": {
         "base": {
-            "color": "#FFFFFF",
-            "font-family":"iA Writer Quattro V, Courier, sans-serif"
+            "color": "#E7EAED"
         },
 
         "h1": {
@@ -75,18 +74,15 @@
         },
 
         "codeBlock": {
-            "backgroundColor": "#3AA59A",
-            "font-family":"iA Writer Mono S, Courier, sans-serif",
-            "size":"12px"
+            "backgroundColor": "#FED530",
+            "color": "#1D2229"
         },
         "inlineCode": {
             "backgroundColor": "#3AA59A",
-            "font-family":"iA Writer Mono S, Courier, sans-serif",
-            "size":"12px"
         },
 
         "blockquote": {
-            "backgroundColor": "#6BAEF8",
+            "color": "#4DBD62",
             "font": { "style": "italic" }
         },
         "list": {
@@ -94,10 +90,12 @@
         },
 
         "emphasis": {
-            "font": { "style": "italic" }
+            "font": { "style": "italic" },
+            "color": "#F04E98"
         },
         "strong": {
-            "font": { "style": "bold" }
+            "font": { "style": "bold" },
+            "color": "#F04E98"
         },
 
         "image": {
