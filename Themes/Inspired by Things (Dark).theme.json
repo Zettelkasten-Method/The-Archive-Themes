@@ -75,12 +75,12 @@
 
         "codeBlock": {
             "backgroundColor": "#3AA59A",
-            "font-family":"iA Writer Mono S, Courier, sans-serif",
+            "font-family":"iA Writer Mono S",
             "size":"12px"
         },
         "inlineCode": {
             "backgroundColor": "#3AA59A",
-            "font-family":"iA Writer Mono S, Courier, sans-serif",
+            "font-family":"iA Writer Mono S",
             "size":"12px"
         },
 

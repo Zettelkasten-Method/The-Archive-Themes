@@ -44,7 +44,7 @@
     "styles": {
         "base": {
             "color": "#1D2229",
-            "font-family":"iA Writer Quattro V, Courier, sans-serif"
+            "font-family":"iA Writer Quattro V"
         },
         "h1": {
             "font": { "style": "bold" }
@@ -69,12 +69,12 @@
         },
         "codeBlock": {
             "backgroundColor": "#E7EAED",
-            "font-family": "iA Writer Mono S, Courier New, sans-serif",
+            "font-family": "iA Writer Mono S",
             "size":"12px"
         },
         "inlineCode": {
             "backgroundColor": "#E7EAED",
-            "font-family": "iA Writer Mono S, Courier New, sans-serif",
+            "font-family": "iA Writer Mono S",
             "size":"12px"
         },
         "blockquote": {
