@@ -75,13 +75,13 @@
 
         "codeBlock": {
             "backgroundColor": "#3AA59A",
-            "font-family":"iA Writer Mono S",
-            "size":"12px"
+            "font-family": "iA Writer Mono S",
+            "size": "12px"
         },
         "inlineCode": {
             "backgroundColor": "#3AA59A",
-            "font-family":"iA Writer Mono S",
-            "size":"12px"
+            "font-family": "iA Writer Mono S",
+            "size": "12px"
         },
 
         "blockquote": {
