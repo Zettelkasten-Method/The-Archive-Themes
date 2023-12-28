@@ -1,0 +1,84 @@
+{
+    "name": "Jolly Light",
+    "style": "Light",
+    "author": [
+        {
+            "name": "Nicolas Magand",
+            "url": "https://thejollyteapot.com",
+        },
+    ],
+    "version": "1.0",
+    "editor": {
+        "backgroundColor": "#FFFFFF",
+        "caretColor": "#009FFC",
+        "selection": {
+            "backgroundColor": "#DAF4FD",
+            "unfocusedBackgroundColor": "#DAF4FD",
+        },
+        "highlight": {
+            "backgroundColor": "#009FFC",
+            "unfocusedBackgroundColor": "#009FFC"
+        }
+    },
+        "styles": {
+        "base": {
+            "color": "#333333"
+        },
+        "h1": {
+            "font": { "style": "bold" }
+        },
+        "h2": {
+            "font": { "style": "bold" }
+        },
+        "h3": {
+            "font": { "style": "bold" }
+        },
+        "h4": {
+            "font": { "style": "bold" }
+        },
+        "horizontalRule": {
+            "color": "#B3B3B3"
+        },
+        "codeBlock": {
+            "backgroundColor": "#e6ffe6"
+        },
+        "inlineCode": {
+            "backgroundColor": "#e6ffe6"
+        },
+        "blockquote": {
+            "syntax": { "color" : "#FF4433" },
+	          "color": "#808080"
+        },
+        "list": {
+            "syntax": { "color" : "#333333" }
+        },
+        "emphasis": {
+            "font": { "style": "italic" },
+	    "syntax": { "color" : "#B3B3B3" }
+        },
+        "strong": {
+            "font": { "style": "bold" },
+	    "syntax": { "color" : "#B3B3B3" }
+        },
+        "image": {
+            "color": "#BEBEBE"
+        },
+        "footnote": {
+            "color": "#FF4433",
+            "syntax": { "color" : "#FF4433" },
+	          "font": { "style": "bold" }
+        },
+        "link": {
+            "color": "#009FFC",
+            "syntax": { "color" : "#B3B3B3" }
+        },
+        "referenceDefinition": {
+            "color": "#B3B3B3",
+            "syntax": { "color" : "#B3B3B3" }
+        },
+        "comment": {
+            "color": "#808080",
+            "font": { "style": "regular" }
+        }
+    }
+}
