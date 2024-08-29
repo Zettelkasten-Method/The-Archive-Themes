@@ -10,7 +10,7 @@
   ],
   "version": "1.0.0",
   "editor": {
-    "backgroundColor": "#1A191A",
+    "backgroundColor": "#1e1e2e",
     "caretColor": "#f5e0dc",
     "selection": {
       "color": "#bac2de",
@@ -18,14 +18,13 @@
       "unfocusedBackgroundColor": "#313244"
     },
     "highlight": {
-      "color": "#585b70",
       "backgroundColor": "#f5e0dc",
       "unfocusedBackgroundColor": "#f5e0dc"
     }
   },
   "savedSearchesSidebar": {
     "color": "#cdd6f4",
-    "backgroundColor": "#1e1e2e",
+    "backgroundColor": "#11111b",
     "highlightedBackgroundColor": "#181825",
     "border": false,
     "iconColors": {
@@ -34,8 +33,8 @@
   },
   "resultsList": {
     "color": "#cdd6f4",
-    "backgroundColor": "#11111b",
-    "alternateBackgroundColor": "#181825",
+    "backgroundColor": "#1e1e2e",
+    "alternateBackgroundColor": "#11111b",
     "selection": {
       "color": "#1e1e2e",
       "unfocusedColor": "#1e1e2e",
@@ -108,7 +107,7 @@
     },
     "inlineCode": {
       "color": "#cdd6f4",
-      "backgroundColor": "#313244"
+      "backgroundColor": "#45475a"
     },
     "blockquote": {
       "syntax": {
@@ -161,7 +160,7 @@
       }
     },
     "comment": {
-      "color": "#a6adc8",
+      "color": "#6c7086",
       "font": {
         "style": "regular"
       }

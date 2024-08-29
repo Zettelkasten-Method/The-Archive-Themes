@@ -52,7 +52,7 @@
         "style": "bold"
       },
       "syntax": {
-        "color": "#d20f39"
+        "color": "#e78284"
       }
     },
     "h2": {
@@ -60,7 +60,7 @@
         "style": "bold"
       },
       "syntax": {
-        "color": "#fe640b"
+        "color": "#ef9f76"
       }
     },
     "h3": {
@@ -68,7 +68,7 @@
         "style": "bold"
       },
       "syntax": {
-        "color": "#df8e1d"
+        "color": "#e5c890"
       }
     },
     "h4": {
@@ -76,7 +76,7 @@
         "style": "bold"
       },
       "syntax": {
-        "color": "#40a02b"
+        "color": "#a6d189"
       }
     },
     "h5": {
@@ -84,7 +84,7 @@
         "style": "bold"
       },
       "syntax": {
-        "color": "#209fb5"
+        "color": "#85c1dc"
       }
     },
     "h6": {
@@ -92,13 +92,13 @@
         "style": "bold"
       },
       "syntax": {
-        "color": "#7287fd"
+        "color": "#babbf1"
       }
     },
     "horizontalRule": {
-      "color": "#616161",
+      "color": "#626880",
       "syntax": {
-        "color": "#616161"
+        "color": "#626880"
       }
     },
     "codeBlock": {
@@ -107,7 +107,7 @@
     },
     "inlineCode": {
       "color": "#c6d0f5",
-      "backgroundColor": "#bcc0cc"
+      "backgroundColor": "#51576d"
     },
     "blockquote": {
       "syntax": {
@@ -160,7 +160,7 @@
       }
     },
     "comment": {
-      "color": "#6c6f85",
+      "color": "#737994",
       "font": {
         "style": "regular"
       }

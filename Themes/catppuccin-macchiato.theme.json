@@ -107,7 +107,7 @@
     },
     "inlineCode": {
       "color": "#cad3f5",
-      "backgroundColor": "#bcc0cc"
+      "backgroundColor": "#494d64"
     },
     "blockquote": {
       "syntax": {
@@ -160,7 +160,7 @@
       }
     },
     "comment": {
-      "color": "#a5adcb",
+      "color": "#6e738d",
       "font": {
         "style": "regular"
       }
