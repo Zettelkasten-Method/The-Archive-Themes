@@ -11,21 +11,23 @@
   "version": "1.0.0",
   "editor": {
     "backgroundColor": "#1e1e2e",
-    "caretColor": "#f5e0dc",
+    "caretColor": "#cba6f7",
     "selection": {
       "color": "#bac2de",
+      "unfocusedColor": "#bac2de",
       "backgroundColor": "#313244",
       "unfocusedBackgroundColor": "#313244"
     },
     "highlight": {
-      "backgroundColor": "#f5e0dc",
-      "unfocusedBackgroundColor": "#f5e0dc"
+      "color": "#1e1e2e",
+      "backgroundColor": "#cba6f7",
+      "unfocusedBackgroundColor": "#cba6f7"
     }
   },
   "savedSearchesSidebar": {
     "color": "#cdd6f4",
     "backgroundColor": "#11111b",
-    "highlightedBackgroundColor": "#181825",
+    "highlightedBackgroundColor": "#cba6f7",
     "border": false,
     "iconColors": {
       "default": "#89b4fa"
@@ -37,9 +39,9 @@
     "alternateBackgroundColor": "#11111b",
     "selection": {
       "color": "#1e1e2e",
+      "backgroundColor": "#cba6f7",
       "unfocusedColor": "#1e1e2e",
-      "backgroundColor": "#f5e0dc",
-      "unfocusedBackgroundColor": "#f5e0dc"
+      "unfocusedBackgroundColor": "#cba6f7"
     },
     "border": "#313244"
   },
