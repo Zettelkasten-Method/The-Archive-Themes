@@ -4,8 +4,11 @@
   "author": [
     {
       "name": "Roger Steve Ruiz",
-      "url": "https://rog.gr/",
-      "basedOn": "https://github.com/catppuccin/the-archive"
+      "url": "https://rog.gr/"
+    },
+    {
+      "name": "Catppuccin Organization",
+      "url": "https://github.com/catppuccin/the-archive"
     }
   ],
   "version": "1.0.0",
