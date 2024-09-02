@@ -17,8 +17,8 @@
     "caretColor": "#ca9ee6",
     "selection": {
       "color": "#b5bfe2",
-      "unfocusedColor": "#b5bfe2",
       "backgroundColor": "#414559",
+      "unfocusedColor": "#b5bfe2",
       "unfocusedBackgroundColor": "#414559"
     },
     "highlight": {

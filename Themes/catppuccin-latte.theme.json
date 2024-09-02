@@ -4,8 +4,11 @@
   "author": [
     {
       "name": "Roger Steve Ruiz",
-      "url": "https://rog.gr/",
-      "basedOn": "https://github.com/catppuccin/catppuccin"
+      "url": "https://rog.gr/"
+    },
+    {
+      "name": "Catppuccin Organization",
+      "url": "https://github.com/catppuccin/the-archive"
     }
   ],
   "version": "1.0.0",
@@ -14,8 +17,8 @@
     "caretColor": "#8839ef",
     "selection": {
       "color": "#5c5f77",
-      "unfocusedColor": "#5c5f77",
       "backgroundColor": "#ccd0da",
+      "unfocusedColor": "#5c5f77",
       "unfocusedBackgroundColor": "#ccd0da"
     },
     "highlight": {
