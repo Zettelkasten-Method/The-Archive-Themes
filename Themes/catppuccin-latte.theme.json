@@ -1,0 +1,174 @@
+{
+  "name": "Catppuccin Latte",
+  "style": "Light",
+  "author": [
+    {
+      "name": "Roger Steve Ruiz",
+      "url": "https://rog.gr/"
+    },
+    {
+      "name": "Catppuccin Organization",
+      "url": "https://github.com/catppuccin/the-archive"
+    }
+  ],
+  "version": "1.0.0",
+  "editor": {
+    "backgroundColor": "#eff1f5",
+    "caretColor": "#8839ef",
+    "selection": {
+      "color": "#5c5f77",
+      "backgroundColor": "#ccd0da",
+      "unfocusedColor": "#5c5f77",
+      "unfocusedBackgroundColor": "#ccd0da"
+    },
+    "highlight": {
+      "color": "#eff1f5",
+      "backgroundColor": "#8839ef",
+      "unfocusedBackgroundColor": "#8839ef"
+    }
+  },
+  "savedSearchesSidebar": {
+    "color": "#4c4f69",
+    "backgroundColor": "#dce0e8",
+    "highlightedBackgroundColor": "#8839ef",
+    "border": false,
+    "iconColors": {
+      "default": "#1e66f5"
+    }
+  },
+  "resultsList": {
+    "color": "#4c4f69",
+    "backgroundColor": "#eff1f5",
+    "alternateBackgroundColor": "#dce0e8",
+    "selection": {
+      "color": "#eff1f5",
+      "backgroundColor": "#8839ef",
+      "unfocusedColor": "#eff1f5",
+      "unfocusedBackgroundColor": "#8839ef"
+    },
+    "border": "#ccd0da"
+  },
+  "styles": {
+    "base": {
+      "color": "#4c4f69"
+    },
+    "h1": {
+      "font": {
+        "style": "bold"
+      },
+      "syntax": {
+        "color": "#d20f39"
+      }
+    },
+    "h2": {
+      "font": {
+        "style": "bold"
+      },
+      "syntax": {
+        "color": "#fe640b"
+      }
+    },
+    "h3": {
+      "font": {
+        "style": "bold"
+      },
+      "syntax": {
+        "color": "#df8e1d"
+      }
+    },
+    "h4": {
+      "font": {
+        "style": "bold"
+      },
+      "syntax": {
+        "color": "#40a02b"
+      }
+    },
+    "h5": {
+      "font": {
+        "style": "bold"
+      },
+      "syntax": {
+        "color": "#209fb5"
+      }
+    },
+    "h6": {
+      "font": {
+        "style": "bold"
+      },
+      "syntax": {
+        "color": "#7287fd"
+      }
+    },
+    "horizontalRule": {
+      "color": "#acb0be",
+      "syntax": {
+        "color": "#acb0be"
+      }
+    },
+    "codeBlock": {
+      "color": "#4c4f69",
+      "backgroundColor": "#ccd0da"
+    },
+    "inlineCode": {
+      "color": "#4c4f69",
+      "backgroundColor": "#bcc0cc"
+    },
+    "blockquote": {
+      "syntax": {
+        "color": "#4c4f69"
+      }
+    },
+    "list": {
+      "syntax": {
+        "color": "#4c4f69"
+      }
+    },
+    "emphasis": {
+      "font": {
+        "style": "italic"
+      },
+      "syntax": {
+        "color": "#4c4f69"
+      }
+    },
+    "strong": {
+      "font": {
+        "style": "bold"
+      },
+      "syntax": {
+        "color": "#4c4f69"
+      }
+    },
+    "image": {
+      "color": "#4c4f69",
+      "syntax": {
+        "color": "#4c4f69"
+      }
+    },
+    "footnote": {
+      "color": "#4c4f69",
+      "syntax": {
+        "color": "#4c4f69"
+      }
+    },
+    "link": {
+      "color": "#1e66f5",
+      "syntax": {
+        "color": "#1e66f5"
+      }
+    },
+    "referenceDefinition": {
+      "color": "#4c4f69",
+      "syntax": {
+        "color": "#4c4f69"
+      }
+    },
+    "comment": {
+      "color": "#9ca0b0",
+      "font": {
+        "style": "regular"
+      }
+    }
+  }
+}
